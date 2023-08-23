@@ -89,6 +89,14 @@ function AddFilm() {
                     <input type="file" className={cx('img-film')}></input>
                 </div>
             </div>
+            <div className={cx('row')}>
+                <div className={cx('col-4')}>
+                    <div className={cx('text')}>Cập nhật:</div>
+                </div>
+                <div className={cx('col-8')}>
+                    <input type="submit" className={cx('btn-udate')} value={'Cập nhật'}></input>
+                </div>
+            </div>
         </div>
     );
 }
