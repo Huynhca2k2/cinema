@@ -1,0 +1,142 @@
+.time-chair {
+    text-align: center;
+}
+
+.counting {
+    margin-top: 12px;
+}
+.row {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    padding-left: 12px;
+    padding-right: 12px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.picture {
+    background-color: #cccccc54;
+    text-align: center;
+    border-top: 4px solid rgb(227 150 85);
+    padding: 12px 0;
+}
+
+.container {
+    width: 1200px;
+    min-height: 900px;
+    margin-top: 120px;
+}
+.chair {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.square,
+.square-vip,
+.square-selected,
+.square-bookeed {
+    height: 20px;
+    width: 20px;
+    background-color: beige;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.text {
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.square-vip {
+    background-color: rgb(227 150 85);
+}
+.square-selected {
+    background-color: green;
+}
+.square-bookeed {
+    background-color: #ccc;
+    text-align: center;
+    padding: 2px;
+    font-weight: 600;
+}
+
+.descript {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.title {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 500;
+    border-bottom: 1px dashed #ccc;
+    padding: 12px 0;
+}
+.content,
+.content-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 14px;
+}
+
+.content + .content {
+    border-top: 1px dashed #ccc;
+}
+
+.content + .content-price {
+    border-bottom: 1px dashed #ccc;
+    border-top: 1px dashed #ccc;
+}
+
+.content:last-child {
+    border-bottom: 1px dashed #ccc;
+}
+
+.btn-booking-ticket {
+    background-color: rgb(227 150 85);
+    padding: 12px 0;
+    margin: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: var(--white-color);
+}
+
+.btn-booking-ticket:hover {
+    opacity: 0.9;
+}
+
+.content-price {
+    height: 150px;
+}

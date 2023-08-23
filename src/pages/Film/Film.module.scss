@@ -1,0 +1,103 @@
+.inner {
+    background-color: var(--white-color);
+    height: 100%;
+    padding: 16px;
+    margin: 16px;
+}
+
+.title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+}
+
+.btn-add-film {
+    display: block;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    padding: 10px 12px;
+    width: 130px;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.search-input {
+    margin-left: 12px;
+    flex: 1;
+    outline: none;
+    border: none;
+}
+
+.btn-search {
+    width: 32px;
+    height: 32px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    opacity: 0.8;
+}
+
+.films {
+    width: 100%;
+    margin-top: 30px;
+}
+
+tr {
+    height: 38px;
+}
+
+.title-films {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.text-films {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+
+.film-img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.action {
+    display: flex;
+}
+
+.btn-update {
+    color: blue;
+    padding-right: 12px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    color: red;
+    padding-right: 12px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.btn-delete:hover,
+.btn-update:hover {
+    opacity: 0.7;
+}
+
+.btn-search {
+    padding: 8px;
+    cursor: pointer;
+    color: var(--white-color);
+}
