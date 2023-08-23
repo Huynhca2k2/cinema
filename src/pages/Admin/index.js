@@ -1,6 +1,5 @@
 import styles from './Admin.module.scss';
 import classNames from 'classnames/bind';
-import Film from '../Film/film';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

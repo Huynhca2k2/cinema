@@ -1,6 +1,6 @@
 import styles from './Film.module.scss';
 import classNames from 'classnames/bind';
-import { Form, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen, faSearch, faTrash } from '@fortawesome/free-solid-svg-icons';
 
